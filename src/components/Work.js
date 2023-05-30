@@ -35,7 +35,7 @@ const Work = () => {
                 alt=""
                 className="group-hover:scale-125 transition-all duration-500"
               />
-              <div className="absolute -bottom-full left-12 group-hover:bottom-16 transition-all duration-500 z-50">
+              <div className="absolute -bottom-full left-12 group-hover:bottom-28 group-hover:md:bottom-16 transition-all duration-500 z-50">
                 <span className="text-3xl text-gradient">
                   Aviary Park - unrealeased
                 </span>
@@ -58,7 +58,7 @@ const Work = () => {
                 alt=""
                 className="group-hover:scale-125 transition-all duration-500"
               />
-              <div className="absolute -bottom-full left-12 group-hover:bottom-16 transition-all duration-500 z-50">
+              <div className="absolute -bottom-full left-12 group-hover:bottom-28 group-hover:md:bottom-16 transition-all duration-500 z-50">
                 <span className="text-3xl text-gradient">
                   To-do calculator - undeploy
                 </span>
@@ -89,7 +89,7 @@ const Work = () => {
                 alt=""
                 className="group-hover:scale-125 transition-all duration-500"
               />
-              <div className="absolute -bottom-full left-12 group-hover:bottom-16 transition-all duration-500 z-50">
+              <div className="absolute -bottom-full left-12 group-hover:bottom-28 group-hover:md:bottom-16 transition-all duration-500 z-50">
                 <span className="text-3xl text-gradient hover:cursor-pointer ">
                   Ourastore
                 </span>
