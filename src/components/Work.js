@@ -29,7 +29,10 @@ const Work = () => {
 
             {/* Aviary Park  */}
             <div className="group relative h-[330px] overflow-hidden border-2 border-white/50 rounded-xl ">
-              <div className="group-hover:bg-black/90 bg-black/50 w-full h-full absolute z-40 transition-all duration-300"></div>
+              <a
+                href="https://aviary-park.cyberprimatama.id/"
+                className="group-hover:bg-black/90 bg-black/50 w-full h-full absolute z-40 transition-all duration-300"
+              ></a>
               <img
                 src={Img4}
                 alt=""
