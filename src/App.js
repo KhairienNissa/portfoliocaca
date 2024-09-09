@@ -10,7 +10,7 @@ import Contact from "./components/Contact";
 
 const App = () => {
   return (
-    <div className="bg-site bg-blend-saturation bg-no-repeat bg-cover overflow-hidden xl:px-24">
+    <div className="bg-site bg-blend-saturation bg-no-repeat bg-cover overflow-hidden xl:px-24 pb-40">
       <Header />
       <Banner />
       <Nav />

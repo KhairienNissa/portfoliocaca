@@ -11,7 +11,7 @@ const About = () => {
 
   return (
     <section className="section" id="about" ref={ref}>
-      <div className="container mx-auto">
+      <div className="mb-40 mx-auto">
         <div className="md:flex lg:flex-row lg:items-center lg:gap-x-20 lg:gap-y-0">
           <motion.div
             variants={fadeIn("right", 0.3)}
@@ -27,7 +27,9 @@ const About = () => {
             viewport={{ once: false, amount: 0.3 }}
             className="flex-1"
           >
-            <h2 className="h2 text-gradient2 font-extrabold text-3xl">About me.</h2>
+            <h2 className="h2 text-gradient2 font-extrabold text-3xl">
+              About me.
+            </h2>
             <h3 className="h3 mb-4">
               I'm a Front-end Developer at Cyberindo aditama (CBN)
             </h3>
@@ -41,7 +43,7 @@ const About = () => {
             <div className="flex gap-x-6 g:gap-x-10 mb-12">
               <div>
                 <div className="text-[40px] font-tertiary text-white mb-2">
-                  {inView ? <CountUp start={0} end={15} duration={10} /> : null}
+                  {inView ? <CountUp start={0} end={26} duration={10} /> : null}
                 </div>
                 <div className="font-primary text-sm tracking-[2px]">
                   Months
