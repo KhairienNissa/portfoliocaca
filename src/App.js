@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect} from "react";
 // components
 import Banner from "./components/Banner";
 import Header from "./components/Header";
@@ -9,6 +9,9 @@ import Work from "./components/Work";
 import Contact from "./components/Contact";
 
 const App = () => {
+  useEffect(() => {
+    document.title = "Khairien Nissa";
+  }, []);
   return (
     <div className="bg-site bg-blend-saturation bg-no-repeat bg-cover overflow-hidden xl:px-24 pb-40">
       <Header />
