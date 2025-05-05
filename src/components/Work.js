@@ -8,14 +8,34 @@ import Img4 from "../assets/portfolio-img4.png";
 import Img5 from "../assets/portfolio-img5.png";
 import Img6 from "../assets/sppi.png";
 import Img7 from "../assets/cmp.png";
+import Img8 from "../assets/sbii.png";
+import Img9 from "../assets/wiki.png";
 import { Link } from "react-router-dom";
 
 const Work = () => {
   const data = [
     {
+      image: Img8,
+      name: "Bank SBI Indonesia",
+      link: "https://sbiindo.com/",
+      desc: "Frontend using Next Js, tailwind, framer motion",
+    },
+    {
       image: Img4,
       name: "Aviary Park",
       link: "https://aviarypark.com/",
+      desc: "Frontend using Next Js, tailwind, framer motion",
+    }, 
+    {
+      image: Img7,
+      name: "CBNCloud Website",
+      link: "https://web-cmp.cbncloud.co.id/",
+      desc: "Frontend using Next Js, bootstrap, tailwind, framer motion",
+    },
+    {
+      image: Img9,
+      name: "Wiki CBNcloud",
+      link: "https://wiki.cbncloud.co.id/",
       desc: "Frontend using Next Js, tailwind, framer motion",
     },
     {
@@ -48,15 +68,10 @@ const Work = () => {
       link: "https://dumbmerch-khairien.netlify.app/",
       desc: "Fullstack using React Js, css, Javascript, Bootstrap, Node Js, PostgresSQL, Socket.io, Express, PHPmyadmin",
     },
-    {
-      image: Img7,
-      name: "CBNCloud Website",
-      link: "https://web-cmp.cbncloud.co.id/",
-      desc: "Frontend using Next Js, bootstrap, tailwind, framer motion",
-    },
+   
   ];
   return (
-    <section className="section lg:my-[250px]" id="work">
+    <section className="section lg:my-[350px]" id="work">
       <div className="container mx-auto">
         <div className="lg:flex lg:gap-x-10 ">
           <div className="grid lg:grid-cols-2 grid-cols-1 gap-5 ">
